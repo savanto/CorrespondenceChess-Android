@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	<com.savanto.correspondencechess.SquareLayout
+		android:id="@+id/board"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" >
+
+	    <!-- Rank 8 -->
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+
+	    <!-- Rank 7 -->
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+
+		<!-- Rank 6 -->
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+
+	    <!-- Rank 5 -->
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+
+		<!-- Rank 4 -->
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+
+	    <!-- Rank 3 -->
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+
+		<!-- Rank 2 -->
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+
+	    <!-- Rank 1 -->
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+		<View style="@style/BlackSquare" />
+		<View style="@style/WhiteSquare" />
+
+	</com.savanto.correspondencechess.SquareLayout>
+	    
+</RelativeLayout>
